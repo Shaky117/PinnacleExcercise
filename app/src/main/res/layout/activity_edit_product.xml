@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProductActivity">
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/topBarBackground"
+        android:text="@string/text_go_back"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/text_edit_product"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/eTNameEdit"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/eTDescripcionEdit"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_description"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPriceEdit" />
+
+    <EditText
+        android:id="@+id/etCategory"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_category"
+        android:inputType="none|text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eTDescripcionEdit" />
+
+    <EditText
+        android:id="@+id/etPriceEdit"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hint_price"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eTNameEdit" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnEditProduct"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/text_edit"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCategory" />
+
+</android.support.constraint.ConstraintLayout>

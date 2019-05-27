@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GiftShop</string>
+    <string name="logIn">LOG IN</string>
+    <string name="guest">Enter as a guest</string>
+    <string name="register">Register</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_type">Admin = 1, User = 0</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_category">Category</string>
+    <string name="text_go_back">Go Back</string>
+    <string name="text_login">Login</string>
+    <string name="text_guest">Guest</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_cart">Cart</string>
+    <string name="text_buy">Buy</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_add_product">Add Product</string>
+    <string name="text_edit_product">Edit Product</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+</resources>
